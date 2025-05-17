@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.card {
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    background: rgba(255,255,255,0.95);
+}
+
+h1 {
+    font-weight: 800;
+    color: #3a3a5a;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px #e0e0e0;
+}
+
+#image-preview {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(160, 160, 160, 0.15);
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+#result {
+    min-height: 2em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(67, 206, 162, 0.12);
+    transition: background 0.3s;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(67, 206, 162, 0.12);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+    box-shadow: 0 4px 16px rgba(24, 90, 157, 0.18);
+}
+
+#detect-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #bdbdbd !important;
+    box-shadow: none;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #43cea2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-weight: 600;
+    cursor: pointer;
+} 
